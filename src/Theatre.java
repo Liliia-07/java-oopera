@@ -18,9 +18,13 @@ public class Theatre {
                             "Курить, болтать и над прохожим подшутить не раз.\n" +
                             "Оживленною толпою все снует и бежит.";
 
-        Actor actor1 = new Actor("Василий","Кузнецов",Gender.MALE,178);
-        Actor actor2 = new Actor("Андрей","Антонов",Gender.MALE,175);
-        Actor actor3 = new Actor("Екатерина","Марченко",Gender.FEMALE,167);
+        int hightActor1 = 178;
+        int hightActor2 = 175;
+        int hightActor3 = 167;
+
+        Actor actor1 = new Actor("Василий","Кузнецов",Gender.MALE,hightActor1);
+        Actor actor2 = new Actor("Андрей","Антонов",Gender.MALE,hightActor2);
+        Actor actor3 = new Actor("Екатерина","Марченко",Gender.FEMALE,hightActor3);
 
         Director directorOpera = new Director("Антон","Андреев",Gender.MALE,2);
         Director director = new Director("Валерий","Николаев",Gender.MALE,2);

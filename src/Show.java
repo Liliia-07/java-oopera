@@ -30,14 +30,14 @@ public class Show {
         }
 
        listOfActors.add(newActor);
-        System.out.println("Актер " + newActor.getName() + " " + newActor.getSurname() + " добавлен в спектакль " + title);
+        System.out.println("Актер " + newActor.name + " " + newActor.surname + " добавлен в спектакль " + title);
     }
 
     public void replaceActorInShow(Actor replaceableActor,Actor newActor){
         boolean isRemove = listOfActors.remove(replaceableActor);
 
         if (!isRemove){
-            System.out.println("Aктера "+ replaceableActor.getName() + " " + replaceableActor.getSurname() + " нет в этом спектакле!");
+            System.out.println("Aктера "+ replaceableActor.name + " " + replaceableActor.surname + " нет в этом спектакле!");
             return;
         }
 
